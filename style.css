@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+body p {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 5px solid rgb(247, 245, 245);
+  font-size: 30px;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+  transition: transform 0.5s;
+}
+body p:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.5) translate(50%);
+}/*# sourceMappingURL=style.css.map */
