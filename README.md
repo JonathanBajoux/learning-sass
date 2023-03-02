@@ -1,1 +1,1 @@
-# learning-sass-jonathan
+# learning-sass
